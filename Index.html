@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f7f8fc">
+  <title>English Flow｜聽・拼・讀・複習</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <span class="brand-dot"></span>English Flow
+  </div>
+
+  <div class="top-actions">
+    <button id="themeBtn" class="icon-btn" title="切換深色模式">◐</button>
+    <button id="resetBtn" class="ghost-btn">重設本機進度</button>
+  </div>
+</header>
+
+<div class="app-shell">
+
+  <aside class="sidebar">
+
+    <button class="nav active" data-page="home">
+      ⌂ <span>學習首頁</span>
+    </button>
+
+    <button class="nav" data-page="courses">
+      ▣ <span>課程</span>
+    </button>
+
+    <button class="nav" data-page="practice">
+      ⌨ <span>聽音拼寫</span>
+    </button>
+
+    <button class="nav" data-page="dictation">
+      ◉ <span>句子聽寫</span>
+    </button>
+
+    <button class="nav" data-page="grammar">
+      A <span>文法練習</span>
+    </button>
+
+    <button class="nav" data-page="review">
+      ↻ <span>今日複習</span>
+    </button>
+
+    <button class="nav" data-page="words">
+      ★ <span>生字本</span>
+    </button>
+
+    <button class="nav" data-page="stats">
+      ▥ <span>學習統計</span>
+    </button>
+
+  </aside>
+
+  <main id="main">
+
+    <section id="page-home" class="page active"></section>
+
+    <section id="page-courses" class="page"></section>
+
+    <section id="page-practice" class="page"></section>
+
+    <section id="page-dictation" class="page"></section>
+
+    <section id="page-grammar" class="page"></section>
+
+    <section id="page-review" class="page"></section>
+
+    <section id="page-words" class="page"></section>
+
+    <section id="page-stats" class="page"></section>
+
+  </main>
+
+</div>
+
+<div id="toast"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
